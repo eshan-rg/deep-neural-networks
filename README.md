@@ -14,8 +14,8 @@ imagine bubbling the smallest elements of a (vertical) array to the
 top; then bubble the next smallest; then so on until the entire
 array is sorted.
 
-Example: \ 
-First Pass: \ 
+Example: <br />
+First Pass:  
 ( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1. \
 ( 1 5 4 2 8 ) –>  ( 1 4 5 2 8 ), Swap since 5 > 4 \
 ( 1 4 5 2 8 ) –>  ( 1 4 2 5 8 ), Swap since 5 > 2 \
