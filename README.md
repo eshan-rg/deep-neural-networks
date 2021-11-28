@@ -7,27 +7,3 @@ Understood the basics of the deep neural networks. Build the DNN models FCNN, CN
 
 3. Locally imported the Hand-sign Dataset in .h5 format using the h5py package. There are a total 1080 images in the train data and 120 images in the test data, each of which is a 3 channel image of dimension 64x64. A deep learning neural network, ResNet-50 was made to recognize numeric signs using our hand and the model was tested on the above mentioned dataset from scratch.
 
-
-# Bubble-Sort-Algorithm-in-Python
-Bubblesort is an elementary sorting algorithm. The idea is to
-imagine bubbling the smallest elements of a (vertical) array to the
-top; then bubble the next smallest; then so on until the entire
-array is sorted.
-
-Example: <br />
-First Pass:  
-( 5 1 4 2 8 ) –> ( 1 5 4 2 8 ), Here, algorithm compares the first two elements, and swaps since 5 > 1. \
-( 1 5 4 2 8 ) –>  ( 1 4 5 2 8 ), Swap since 5 > 4 \
-( 1 4 5 2 8 ) –>  ( 1 4 2 5 8 ), Swap since 5 > 2 \
-( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ), Now, since these elements are already in order (8 > 5), algorithm does not swap them.\
-Second Pass: \
-( 1 4 2 5 8 ) –> ( 1 4 2 5 8 ) \
-( 1 4 2 5 8 ) –> ( 1 2 4 5 8 ), Swap since 4 > 2 \
-( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) \
-( 1 2 4 5 8 ) –>  ( 1 2 4 5 8 ) \
-Now, the array is already sorted, but our algorithm does not know if it is completed. The algorithm needs one whole pass without any swap to know it is sorted. \
-Third Pass: \
-( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) \
-( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) \
-( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) \
-( 1 2 4 5 8 ) –> ( 1 2 4 5 8 ) \
